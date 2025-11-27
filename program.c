@@ -17,9 +17,9 @@ int add_even(int n) {
 }
 
 int main(void) {
-    printf("Open Source Software HW - version 4\n");
+    printf("Open Source Software HW - version 4 (from Bob feature)\n");
     printf("Sum 1..10 = %d\n", add(10));
     printf("Even sum 1..10 = %d\n", add_even(10));
+    printf("This line is added by Bob on feature branch.\n");
     return 0;
 }
-
